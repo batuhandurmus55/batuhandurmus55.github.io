@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="java.js">
+    <title>Batuhan Durmuş - Kişisel Portfolyo</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="anasayfa.html" class="active">Anasayfa</a></li>
+            <li><a href="yeteneklerveegitim.html">Yetenekler ve Eğitim</a></li>
+            <li><a href="projeler.html">Projeler</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+        <a href="iletisim.html" class="nav-btn">Mail Gönder!</a>
+    </nav>
+
+<section class="skills-education-section">
+
+    <!-- Sol Navigasyon -->
+    <div class="side-nav">
+        <button class="nav-btn active" onclick="showTab('skills')">Yeteneklerim</button>
+        <button class="nav-btn" onclick="showTab('education')">Eğitim</button>
+    </div>
+
+    <!-- İçerik Alanı -->
+    <div class="content-area">
+
+        <!-- YETENEKLERİM -->
+        <div id="skills" class="tab-content active">
+            <h2 style="margin-top:50px;">Yeteneklerim</h2>
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <span class="skill-percent">90%</span>
+                    <h3>WordPress</h3>
+                    <p>Web sitesi geliştirme ve yönetiminde ileri düzey WordPress bilgisi.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-percent">85%</span>
+                    <h3>Figma</h3>
+                    <p>UI/UX tasarım süreçlerinde profesyonel Figma kullanımı.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-percent">95%</span>
+                    <h3>Elementor</h3>
+                    <p>Elementor ile hızlı ve estetik sayfa tasarımı.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-percent">87%</span>
+                    <h3>Photoshop</h3>
+                    <p>Görsel düzenleme ve grafik tasarımda Photoshop uzmanlığı.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 87%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-percent">93%</span>
+                    <h3>Illustrator</h3>
+                    <p>Vektör tabanlı grafik ve logo tasarımı.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 93%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-percent">80%</span>
+                    <h3>HTML & CSS</h3>
+                    <p>Modern ve duyarlı web sayfaları oluşturma.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- EĞİTİM -->
+        <div id="education" class="tab-content">
+            <h2 style="margin-top:50px;">Eğitim</h2>
+            <div class="education-list">
+
+                <div class="edu-card">
+                    <span class="edu-date">09/2023 – 06/2024</span>
+                    <div class="edu-info">
+                        <h3>UI/UX Tasarım Uzmanlığı</h3>
+                        <p class="edu-school">Meslek Lisesi Eğitimi</p>
+                    </div>
+                    <p class="edu-desc">Kullanıcı arayüzü ve deneyim tasarımı alanında kapsamlı eğitim.</p>
+                </div>
+
+                <div class="edu-card">
+                    <span class="edu-date">09/2023 – 06/2024</span>
+                    <div class="edu-info">
+                        <h3>Web Tasarım Uzmanlığı</h3>
+                        <p class="edu-school">Meslek Lisesi Eğitimi</p>
+                    </div>
+                    <p class="edu-desc">Web tasarım ve geliştirme süreçlerinde ileri düzey eğitim.</p>
+                </div>
+
+                <div class="edu-card">
+                    <span class="edu-date">09/2023 – 06/2024</span>
+                    <div class="edu-info">
+                        <h3>Grafik Tasarım</h3>
+                        <p class="edu-school">Meslek Lisesi Eğitimi</p>
+                    </div>
+                    <p class="edu-desc">Profesyonel grafik tasarım teknikleri ve uygulamaları.</p>
+                </div>
+
+                <div class="edu-card">
+                    <span class="edu-date">09/2023 – 06/2024</span>
+                    <div class="edu-info">
+                        <h3>Hareketli Grafik Tasarımı</h3>
+                        <p class="edu-school">Meslek Lisesi Eğitimi</p>
+                    </div>
+                    <p class="edu-desc">Animasyon ve hareketli grafik tasarımı üzerine uzmanlaşma.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="java.js"></script>
+</body>
+</html>
