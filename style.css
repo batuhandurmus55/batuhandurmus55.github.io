@@ -6,7 +6,7 @@
         }
 
         body {
-            background: linear-gradient(135deg, #0a0a1a 0%, #0d1b2a 50%, ##1a2a3a 100%);
+            background: linear-gradient(135deg, ##0a0a1a 0%, ##0d1b2a 50%, ##1a2a3a 100%);
             min-height: 100vh;
             color: white;
         }
@@ -859,7 +859,7 @@ body {
         }
         
         .project-title {
-            color: #333;
+            color: ##333;
             font-size: 18px;
             font-weight: 600;
             margin-top: 20px;
